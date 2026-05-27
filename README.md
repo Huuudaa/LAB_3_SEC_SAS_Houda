@@ -1,26 +1,9 @@
 # LAB 3 — Observation du trafic HTTP(S) Android avec Burp Suite
 
 **Date** : 27/05/2026  
-**Heure** : 16h00 – 18h00  
 **Environnement** : Android Emulator (Pixel 4 API 30) — Machine hôte Windows 11  
 **Cible autorisee** : Application de formation interne (testphp.vulnweb.com — cible de labo autorisee)  
 **Burp Suite Community** : Version 2024.1.1.6  
-
----
-
-## Table des matieres
-
-1. [Configuration Burp Suite](#1-configuration-burp-suite)
-2. [Proxy Listener](#2-proxy-listener)
-3. [Adresse reseau de la machine hote](#3-adresse-reseau-de-la-machine-hote)
-4. [Configuration du proxy Android](#4-configuration-du-proxy-android)
-5. [Capture HTTP — validation de base](#5-capture-http--validation-de-base)
-6. [Analyse d'une requete](#6-analyse-dune-requete)
-7. [Demonstration de l'interception](#7-demonstration-de-linterception)
-8. [HTTPS et certificat CA](#8-https-et-certificat-ca)
-9. [Rapport d'audit](#9-rapport-daudit)
-10. [Checkpoints](#10-checkpoints)
-11. [Nettoyage](#11-nettoyage)
 
 ---
 
@@ -269,7 +252,3 @@ lab3-burpsuite-android/
     ├── requete_post_raw.png  <- Requete POST avec identifiants en clair
     └── cookie_inspector.png  <- Cookies sans attributs de securite
 ```
-
----
-
-*Document produit dans le cadre d'un laboratoire pedagogique. Usage strictement limite a l'environnement de labo. Aucune donnee reelle interceptee.*
